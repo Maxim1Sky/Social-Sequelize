@@ -10,6 +10,6 @@ const db = new Sequelize({
   },
 });
 
-db.authenticate();
+//db.authenticate();
 
 module.exports = { db, DataTypes, Model };
